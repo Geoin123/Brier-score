@@ -7,3 +7,8 @@ must sum to one (where each individual probability is in the range of 0 to 1).
 `The Brier score can range from 0, if odds guessed the outcome directly by stating there is 100% chance of only one outcome to be correct, to 2, if odds implied that one outcome is certain and that did not occur.`
 
 • Brier score 
+
+Also known as Quadratic Loss (Hvattum & Arntzen, 2010), the Brier Score measures the average
+squared deviation between predicted probabilities for a set of their events and their outcomes. For an
+individual match  the score is (Brier, 1950) 
+
