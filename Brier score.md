@@ -12,3 +12,11 @@ Also known as Quadratic Loss (Hvattum & Arntzen, 2010), the Brier Score measures
 squared deviation between predicted probabilities for a set of their events and their outcomes. For an
 individual match the score is (Brier, 1950) 
 
+<pre><code>
+
+random stuff
+<code><pre>
+ 
+ -item1 `functionname()`
+ -item2 `functionname()``
+ 
