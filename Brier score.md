@@ -17,6 +17,6 @@ individual match the score is (Brier, 1950)
 random stuff
 <code><pre>
  
- -item1 `functionname()`
- -item2 `functionname()``
+ -item1 `functionname(hello)`
+ -item2 `functionname(Hello)`
  
