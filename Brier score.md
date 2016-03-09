@@ -10,5 +10,5 @@ must sum to one (where each individual probability is in the range of 0 to 1).
 
 Also known as Quadratic Loss (Hvattum & Arntzen, 2010), the Brier Score measures the average
 squared deviation between predicted probabilities for a set of their events and their outcomes. For an
-individual match  the score is (Brier, 1950) 
+individual match the score is (Brier, 1950) 
 
