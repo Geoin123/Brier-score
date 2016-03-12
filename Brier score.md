@@ -11,7 +11,7 @@ The Brier score can range from 0, if odds guessed the outcome directly by statin
  
 Also known as Quadratic Loss (Hvattum & Arntzen, 2010), the Brier Score measures the average
 squared deviation between predicted probabilities for a set of their events and their outcomes. For an
-individual match the score is (Brier, 1950) 
+individual match the score is  (Brier, 1950) 
 
 <pre><code>
 
