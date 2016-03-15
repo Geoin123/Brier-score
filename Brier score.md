@@ -31,3 +31,11 @@ fsdhsdhsdfhgdfg
 
 Disadvantages of the Brier score
 
+Rare diseases. It is difficult to see differences in populations with
+small prevalence
+
+Intuition. It does not penalise very small forecasted probabilities
+when they should be giving larger probabilities to the same extent
+that we penalise such forecasts with our intuition. Intuition
+apparently uses fractional or logarithmic rather than differences in
+probability. 
