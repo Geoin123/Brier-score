@@ -39,3 +39,5 @@ when they should be giving larger probabilities to the same extent
 that we penalise such forecasts with our intuition. Intuition
 apparently uses fractional or logarithmic rather than differences in
 probability. 
+
+For binary and continuous and right censored outcome the Brier score can be used  to ﬁnd predictive or diagnostic markers ◮ to assess the predictive performance of a traditional statistical model ◮ to assess an algorithmic (black box) model ◮ to detect overﬁtting ◮ to compare simple to complex models ◮ for focussed and automated model selectio
