@@ -10,7 +10,7 @@ The Brier score can range from 0, if odds guessed the outcome directly by statin
 Football is unpredictable. That unpredictability gives the sport its appeal inspires the fans and also gives betting punters a headache week in, week out. Using a verification measure like the Brier Score gives betters a more systematic point of view as to what is happening in the league right now
 
 Brier Score = (Actual Result - Probability Assigned to Actual Result)^2
-
+ 
 • Brier score  
  
 Also known as Quadratic Loss (Hvattum & Arntzen, 2010), the Brier Score measures the average
