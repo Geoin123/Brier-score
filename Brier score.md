@@ -17,12 +17,12 @@ Also known as Quadratic Loss (Hvattum & Arntzen, 2010), the Brier Score measures
 squared deviation between predicted probabilities for a set of their events and their outcomes. For an
 individual match the score is  (Brier, 1950) 
 
-<pre><code>
+
 
 random stuff dhsfdhadfh
 c
 fsdhsdhsdfhgdfg 
-<code><pre>
+
  
  -item1 `functionname(hello)`
  -item2 `functionname(Hello)`
@@ -40,4 +40,9 @@ that we penalise such forecasts with our intuition. Intuition
 apparently uses fractional or logarithmic rather than differences in
 probability. 
 
-For binary and continuous and right censored outcome the Brier score can be used  to ﬁnd predictive or diagnostic markers ◮ to assess the predictive performance of a traditional statistical model ◮ to assess an algorithmic (black box) model ◮ to detect overﬁtting ◮ to compare simple to complex models ◮ for focussed and automated model selectio
+For binary and continuous and right censored outcome the Brier score can be used  to ﬁnd predictive or diagnostic markers ◮ to assess the predictive performance of a traditional statistical model ◮ to assess an algorithmic (black box) model ◮ to detect overﬁtting ◮ to compare simple to complex models ◮ for focussed and automated model selection.
+
+Decompositions
+=============
+
+There are several decompositions of the Brier score which provide a deeper insight on the behavior of a binary classifier.
