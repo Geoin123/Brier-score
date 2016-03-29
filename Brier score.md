@@ -5,12 +5,25 @@ It is applicable to tasks in which predictions must assign probabilities to a se
 The set of possible outcomes can be either binary or categorical in nature, and the probabilities assigned to this set of outcomes 
 must sum to one (where each individual probability is in the range of 0 to 1). 
 
-The Brier score can be thought of as either a measure of the "calibration" of a set of probabilistic predictions, or as a "cost function". More precisely, across all items i\in{1...N} in a set N predictions, the Brier score measures the mean squared difference between:
+The Brier score can be thought of as either a measure of the "calibration" of a set of probabilistic predictions, or as a "cost function". More precisely, across all items i = {1...N} in a set N predictions, the Brier score measures the mean squared difference between:
 
 • The predicted probability assigned to the possible outcomes for item *i*
-• The actual outcome o_i
+
+• The actual outcome O**i**
+
+Therefore, the lower the Brier score is for a set of predictions, the better the predictions are calibrated. Note that the Brier score, in its most common formulation, takes on a value between zero and one, since this is the largest possible difference between a predicted probability (which must be between zero and one) and the actual outcome (which can take on values of only 0 and 1).
+
+The Brier score is appropriate for binary and categorical outcomes that can be structured as true or false, but is inappropriate for ordinal variables which can take on three or more values (this is because the Brier score assumes that all possible outcomes are equivalently "distant" from one another).
+
+Applications of brier score in football
+=============================================
 
 Football is unpredictable. That unpredictability gives the sport its appeal inspires the fans and also gives betting punters a headache week in, week out. Using a verification measure like the Brier Score gives betters a more systematic point of view as to what is happening in the league right now
+
+One of the best available predictors for an outcome, especially if you believe in efficient markets, are betting odds. Hence, teams that perform differently than what predicted are either over-performers or under-performers.
+
+
+As probabilities implied by betting markets add up to more than 100%, we first adjust the odds pro-rata to determine the probabilities of each outcome for a match.
 
 Brier Score = (Actual Result - Probability Assigned to Actual Result)^2
  
