@@ -15,6 +15,8 @@ Therefore, the lower the Brier score is for a set of predictions, the better the
 
 The Brier score is appropriate for binary and categorical outcomes that can be structured as true or false, but is inappropriate for ordinal variables which can take on three or more values (this is because the Brier score assumes that all possible outcomes are equivalently "distant" from one another).
 
+
+
 Applications of brier score in football
 =============================================
 
